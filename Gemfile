@@ -4,10 +4,10 @@ source "https://rubygems.org"
 
 # gem "rails"
 # gem "jekyll"
-gem "github-pages"
+gem 'github-pages', '~> 232'
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"
-  # gem "jekyll-feed"
+  gem 'jekyll-feed', '~> 0.17.0'
   gem "jekyll-seo-tag"
 end
