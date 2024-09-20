@@ -1,7 +1,8 @@
 ---
 # front matter tells Jekyll to process Liquid
 layout: default
-title: Home
+title: About
 ---
+# About page
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+This page tells you a little bit about me.
