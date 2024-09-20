@@ -1,0 +1,607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fol",
+				"folder_name"
+			],
+			[
+				"b",
+				"biblio-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_drafts/more-apples.md",
+			"settings":
+			{
+				"buffer_size": 415,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PythonRepl.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/MarkdownPreview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PythonRepl.sublime-build",
+					""
+				],
+				[
+					"Packages/User/R-IDE/R-IDE.sublime-build",
+					""
+				],
+				[
+					"Packages/User/R-IDE/R-IDE.sublime-build",
+					"Render R Markdown to HTML"
+				],
+				[
+					"Packages/User/R-IDE/R-IDE.sublime-build",
+					"Render R Markdown to PDF"
+				],
+				[
+					"Packages/User/R-IDE/R-IDE.sublime-build",
+					"Render R Markdown"
+				]
+			],
+			[
+				"Packages/MarkdownPreview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/pandoc-md-docx.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pandoc-md-docx.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/pandoc-md-docx.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"j",
+				"Jekyll: Promote draft to post"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"p",
+				"Pandoc"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"HTML2Text: Convert clipboard content"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"html",
+				"HTML2Text: Convert selection"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"4",
+				"Set Syntax: camlp4"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"g",
+				"Git: Add All"
+			],
+			[
+				"markdownP",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package ",
+				"Package Control: List Packages"
+			],
+			[
+				"install package controll",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"MarkdownEditing: Run markdownlint"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 214.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/external/Users/jamie/ajcryan.github.io",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_drafts"
+	],
+	"file_history":
+	[
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/Jekyll/README.md",
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/Jekyll/Jekyll.sublime-settings",
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/User/Jekyll.sublime-settings",
+		"/Users/jamie/Documents/JobHunt/ASX/DataScientist/JamieCryanCoverLetter.md",
+		"/Users/jamie/Documents/JobHunt/onlineresume/resume.json",
+		"/Users/jamie/Documents/JobHunt/S2M/DataScientist/JamieCryanResume.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/blog.html",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/Gemfile",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_layouts/post.html",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_posts/2024-09-20-bananas.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_layouts/default.html",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_posts/2024-09-22-kiwifruit.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_layouts/author.html",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/staff.html",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_authors/ted.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_authors/jill.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_config.yml",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_posts/2024-09-21-apples.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_data/navigation.yml",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_sass/main.scss",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/assets/css/styles.scss",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/_includes/navigation.html",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/about.md",
+		"/Volumes/external/Users/jamie/ajcryan.github.io/index.html",
+		"/Users/jamie/Documents/JobHunt/Snowflake/Practice Manager/JamieCryanResume.md",
+		"/Users/jamie/Documents/JobHunt/Snowflake/Practice Manager/JamieCryanCoverLetter.md",
+		"/Users/jamie/Documents/JobHunt/AuroraEnergyResearch/SeniorAnalyst/JamieCryanResume.md",
+		"/Users/jamie/Documents/JobHunt/CreditCorp/AiImplementationManager/JamieCryanCoverLetter.md",
+		"/Users/jamie/Documents/JobHunt/AuroraEnergyResearch/SeniorAnalyst/JamieCryanCoverLetter.md",
+		"/Users/jamie/Documents/JobHunt/CreditCorp/AiImplementationManager/JamieCryanResume",
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/User/Pandoc.sublime-settings",
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/jamie/Documents/JobHunt/ASX/DataScientist/JamieCryanResume.md",
+		"/Users/jamie/Documents/JobHunt/S2M/DataScientist/JamieCryanCoverLetter.md",
+		"/Users/jamie/Documents/JobHunt/AustralianRetirementTrust/DataGovernanceSpecialist/JamieCryanResume.md",
+		"/Users/jamie/Documents/JobHunt/HarveyNash/TechnicalProjectManager/jamie-cryan-resume.md",
+		"/Users/jamie/Documents/JobHunt/jobhunt.sublime-project",
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/jamie/Downloads/LHH_JamesMossAppt",
+		"/Users/jamie/TestDailyMonitoring.md",
+		"/Users/jamie/DailyMonitoring",
+		"/Users/jamie/todaysjournal",
+		"/Users/jamie/Library/Containers/com.bloombuilt.dayone-mac/Data/tmp/dayonedir.yLhRo4/Journal.txt",
+		"/Users/jamie/Documents/Jamie.txt",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/group_report/JamieLiteratureReview.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/individualMarking.tex",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/Meeting Minutes - 25 Sep.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/agendas/Meeting with Sarat - 27 Sep.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/Meeting Minutes - 23 Sep.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/# Group P Individual Reflective Portfolio - Jamie.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/Meeting Minutes - 16 Sep.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/Meeting with Armin - 13 Sep.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/gantt_chart/README.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/README.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/unsw-ZZSC9020-Group-P-report.Rmd",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/unswthesis.cls",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/university-of-south-wales-harvard.csl",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/checklists/README.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/unsw-ZZSC9020-Group-P-report.tex",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/elsarticle-num.bst",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/header.tex",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/template.tex",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/elsarticle-harv.bst",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupReport/elsevier-with-titles.csl",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/Meeting Minutes - 28 Aug.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/Meeting Minutes - 27 Aug.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/minutes/Meeting Minutes - 6 Sep.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/checklists/Assessment 1B. Implementation Checklist.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/.gitignore",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/project_plan/unsw-ZZSC9020-Project-Plan-template.Rmd",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/agendas/Meeting Minutes - 29 Aug.md",
+		"/Users/jamie/Documents/Obsidian Vault/Meeting Minutes - 27 Aug.md",
+		"/Users/jamie/Library/CloudStorage/OneDrive-UNSW/capstone/project/GroupProjectPlanTemplate/unsw-ZZSC9020-Project-Plan-template.Rmd",
+		"/Users/jamie/Library/CloudStorage/GoogleDrive-ajcryan@gmail.com/My Drive/unsw/capstone/GroupProjectPlanTemplate/unsw-ZZSC9020-Project-Plan-template.Rmd",
+		"/Users/jamie/Library/CloudStorage/GoogleDrive-ajcryan@gmail.com/My Drive/unsw/decisions/report2/Assessment2bReport.tex",
+		"/Users/jamie/Library/CloudStorage/GoogleDrive-ajcryan@gmail.com/My Drive/unsw/decisions/report2/Assessment2bReport.log",
+		"/Users/jamie/Library/Application Support/Sublime Text/Packages/LaTeXTools/Default (OSX).sublime-keymap",
+		"/Users/jamie/Library/CloudStorage/GoogleDrive-ajcryan@gmail.com/My Drive/unsw/neuralNetworks/wk2/a2/gptExample.tex",
+		"/Users/jamie/Library/CloudStorage/GoogleDrive-ajcryan@gmail.com/My Drive/unsw/neuralNetworks/wk2/a2/isggameTestDoc.tex"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_drafts/more-apples.md",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"lsp_uri": "file:///Volumes/external/Users/jamie/ajcryan.github.io/_drafts/more-apples.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 55.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 65.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 113.0
+	},
+	"output.latextools":
+	{
+		"height": 113.0
+	},
+	"output.markdown":
+	{
+		"height": 113.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/pandoc-md-docx.sublime-build",
+	"project": "jekyll-blog.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
