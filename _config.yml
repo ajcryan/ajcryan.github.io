@@ -17,3 +17,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# GH-pages supported plugins
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
