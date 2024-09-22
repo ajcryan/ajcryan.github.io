@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/authors/jamie.html</loc>
-<lastmod>2024-09-22T18:04:18+10:00</lastmod>
+<lastmod>2024-09-22T18:05:00+10:00</lastmod>
 </url>
 <url>
 <loc>/2024/09/20/first-deployed.html</loc>
@@ -25,12 +25,12 @@
 <lastmod>2024-09-22T17:22:56+10:00</lastmod>
 </url>
 <url>
-<loc>/2024/09/22/some-kiwifruit.html</loc>
+<loc>/2024/09/22/where-will-this-go.html</loc>
 <lastmod>2024-09-22T17:22:56+10:00</lastmod>
 </url>
 <url>
-<loc>/2024/09/22/where-will-this-go.html</loc>
-<lastmod>2024-09-22T17:22:56+10:00</lastmod>
+<loc>/2024/09/22/some-kiwifruit.html</loc>
+<lastmod>2024-09-22T18:05:00+10:00</lastmod>
 </url>
 <url>
 <loc>/about.html</loc>
