@@ -1,5 +1,4 @@
 # Default template for basic posts - you can add to this later
 ---
-layout: post
 author: $1
 ---
