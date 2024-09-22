@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/authors/jill.html</loc>
-<lastmod>2024-09-22T17:25:56+10:00</lastmod>
+<loc>/authors/jamie.html</loc>
+<lastmod>2024-09-22T18:04:18+10:00</lastmod>
 </url>
 <url>
-<loc>/authors/ted.html</loc>
-<lastmod>2024-09-22T17:25:56+10:00</lastmod>
-</url>
-<url>
-<loc>/2024/09/20/bananas.html</loc>
+<loc>/2024/09/20/first-deployed.html</loc>
 <lastmod>2024-09-20T00:00:00+10:00</lastmod>
 </url>
 <url>
-<loc>/2024/09/21/more-apples.html</loc>
+<loc>/2024/09/21/second-post.html</loc>
 <lastmod>2024-09-21T00:00:00+10:00</lastmod>
 </url>
 <url>
@@ -21,7 +17,7 @@
 <lastmod>2024-09-21T00:12:29+10:00</lastmod>
 </url>
 <url>
-<loc>/2024/09/22/kiwifruit.html</loc>
+<loc>/2024/09/22/another-post.html</loc>
 <lastmod>2024-09-22T00:00:00+10:00</lastmod>
 </url>
 <url>
