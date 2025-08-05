@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibibox Health Overview</title>
+    <style>
+        /* FONT IMPORT */
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@400;600&display=swap');
+
+        /* GENERAL STYLES */
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fffbeb; /* Light yellow background */
+            color: #555;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .page-container {
+            max-width: 800px;
+            width: 100%;
+            position: relative;
+        }
+
+        /* CARD STYLES */
+        .content-card {
+            background-color: white;
+            border-radius: 40px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 2;
+            margin-top: -100px; /* Overlap top image */
+            margin-bottom: -100px; /* Overlap bottom image */
+        }
+
+        /* HERO IMAGE STYLES */
+        .hero-image {
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 1;
+        }
+        .top-image {
+            background-image: url('https://images.pexels.com/photos/5452291/pexels-photo-5452291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .bottom-image {
+            background-image: url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        /* TEXT STYLES */
+        h1, h2, h3 {
+            font-family: 'Lora', serif;
+            color: #000;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+        }
+        h1 {
+            font-size: 48px;
+            line-height: 1.1;
+            text-align: center;
+        }
+        h2 {
+           font-family: 'Montserrat', sans-serif;
+           font-size: 22px;
+           font-weight: 600;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .overview p, .simplifying p {
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .overview {
+            margin-bottom: 60px;
+        }
+        .simplifying {
+            margin-top: 60px;
+        }
+
+        /* FEATURE SECTION */
+        .features {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        /* Alternating layout */
+        .feature-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .feature-item .text-container {
+            flex: 1;
+        }
+        .feature-item:nth-child(odd) .text-container {
+             padding-left: 20px;
+        }
+        .feature-item:nth-child(even) .text-container {
+             padding-right: 20px;
+             text-align: right;
+        }
+
+        /* ICON STYLES */
+        .icon-wrapper {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            flex-shrink: 0;
+        }
+        .icon-wrapper svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: rotate(-15deg);
+        }
+        .icon-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+        
+        /* COLOR CLASSES */
+        .green-text { color: #84c585; }
+        .pink-text { color: #f28b9a; }
+        
+        .green-stroke { stroke: #84c585; fill: #84c585;}
+        .pink-stroke { stroke: #f28b9a; fill: #f28b9a;}
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .content-card {
+                margin-top: -60px;
+                padding: 30px;
+            }
+            .feature-item, .feature-item:nth-child(even) {
+                flex-direction: column;
+                text-align: center !important;
+            }
+            .feature-item .text-container {
+                padding: 0 !important;
+                text-align: center !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        
+        <header class="hero-image top-image"></header>
+
+        <main class="content-card">
+            
+            <section class="overview">
+                <h1>Chibibox Health<br>Overview</h1>
+                <p>Chibibox Health connects doctors and patients, simplifying communication and care management. All in one, easy-to-use platform.</p>
+            </section>
+
+            <section class="features">
+                
+                <!-- Feature 1: Patient Management -->
+                <div class="feature-item">
+                    <div class="icon-wrapper">
+                        <svg viewBox="0 0 100 100" class="green-stroke">
+                            <path d="M 95,50 A 45,45 0 1 1 50,5" stroke-width="4" stroke-linecap="round" fill="none"/>
+                            <circle cx="50" cy="5" r="4" />
+                        </svg>
+                        <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Doctor with tablet" class="icon-image">
+                    </div>
+                    <div class="text-container">
+                        <h2 class="green-text">Patient Management</h2>
+                        <p>Easily manage patient lists, search and update information. Patient communication in one place!</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Secure Communication -->
+                <div class="feature-item">
+                    <div class="icon-wrapper">
+                        <svg viewBox="0 0 100 100" class="pink-stroke">
+                            <path d="M 95,50 A 45,45 0 1 1 50,5" stroke-width="4" stroke-linecap="round" fill="none"/>
+                            <circle cx="50" cy="5" r="4" />
+                        </svg>
+                        <img src="https://images.pexels.com/photos/1111368/pexels-photo-1111368.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Secure data concept" class="icon-image" style="object-position: top;">
+                    </div>
+                    <div class="text-container">
+                        <h2 class="pink-text">Secure Communication</h2>
+                        <p>Chat with patients and securely share documents. Keep sensitive data safe and easy to access.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Doctor's Notes -->
+                <div class="feature-item">
+                    <div class="icon-wrapper">
+                        <svg viewBox="0 0 100 100" class="green-stroke">
+                            <path d="M 95,50 A 45,45 0 1 1 50,5" stroke-width="4" stroke-linecap="round" fill="none"/>
+                            <circle cx="50" cy="5" r="4" />
+                        </svg>
+                        <img src="https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Medical notes" class="icon-image">
+                    </div>
+                    <div class="text-container">
+                        <h2 class="green-text">Doctor's Notes</h2>
+                        <p>Keep private notes on patients, like a patient record but only for doctors' eyes. Helps keep things organized.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Easy Calendar -->
+                <div class="feature-item">
+                    <div class="icon-wrapper">
+                        <svg viewBox="0 0 100 100" class="pink-stroke">
+                           <path d="M 95,50 A 45,45 0 1 1 50,5" stroke-width="4" stroke-linecap="round" fill="none"/>
+                           <circle cx="50" cy="5" r="4" />
+                        </svg>
+                        <img src="https://images.pexels.com/photos/4099235/pexels-photo-4099235.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Calendar" class="icon-image">
+                    </div>
+                    <div class="text-container">
+                        <h2 class="pink-text">Easy Calendar</h2>
+                        <p>Schedule appointments and send invites. Manage your schedule and connect with patients easily.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="simplifying">
+                <h2>Simplifying Healthcare</h2>
+                <p>Chibibox Health streamlines healthcare with easy communication, records and more. Making care accessible and efficient for everyone.</p>
+            </section>
+
+        </main>
+
+        <footer class="hero-image bottom-image"></footer>
+
+    </div>
+
+</body>
+</html>
