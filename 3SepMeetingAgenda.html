@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Agenda - Mobility Show & JICSS Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .slideshow-container {
+            max-width: 90%;
+            position: relative;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .slide {
+            display: none;
+            padding: 40px;
+            text-align: left;
+            min-height: 500px;
+            animation: fadeIn 0.5s;
+        }
+        
+        .slide.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .slide h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        
+        .slide h2 {
+            color: #34495e;
+            font-size: 2em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        .slide h3 {
+            color: #5a6c7d;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .slide p, .slide li {
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .slide ul {
+            padding-left: 25px;
+        }
+        
+        .slide li {
+            margin-bottom: 15px;
+        }
+        
+        .controls {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .btn:disabled {
+            background: #bbb;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .slide-counter {
+            color: #6c757d;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        
+        .date-badge {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-box {
+            background: #f8f9ff;
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .engagement-item {
+            background: #fff5f5;
+            border-left: 4px solid #e74c3c;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .support-item {
+            background: #f0fff4;
+            border-left: 4px solid #27ae60;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>Meeting Agenda</h1>
+            <div class="date-badge">September 2, 2025</div>
+            <div class="highlight-box">
+                <h2 style="border: none; margin: 0; text-align: center; color: #667eea;">Mobility Show Engagement & JICSS Support</h2>
+                <p style="text-align: center; font-size: 1.2em; margin-top: 20px; color: #5a6c7d;">
+                    Strategic opportunities for showcasing cybersecurity, IoT, AIoT, and national security developments
+                </p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Overview -->
+        <div class="slide">
+            <h1>Meeting Overview</h1>
+            <h2>Purpose</h2>
+            <p>The 8M team has the opportunity to showcase developments and thought leadership as it pertains to:</p>
+            <ul>
+                <li><strong>Cybersecurity</strong> - Advanced security solutions</li>
+                <li><strong>IoT & AIoT</strong> - Internet of Things innovations</li>
+                <li><strong>National Security</strong> - Critical infrastructure protection</li>
+            </ul>
+            <div class="highlight-box">
+                <h3>JICSS Value Proposition</h3>
+                <p>JICSS can leverage its network of subject matter experts to illustrate its value as a global thought leader and provide policy guidance to critical 8M stakeholders and audiences.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Proposed Engagements -->
+        <div class="slide">
+            <h1>Proposed Engagements</h1>
+            <h2>Three Strategic Approaches</h2>
+            
+            <div class="engagement-item">
+                <h3>1. Roundtable Discussion or Facilitated Chat</h3>
+                <p><strong>Focus:</strong> Critical infrastructure protection and/or emerging threats</p>
+                <p><strong>Format:</strong> Exclusive roundtable or broader "fire-side chat"</p>
+                <p><strong>Expert:</strong> Former senior U.S. cybersecurity official with Japan government experience</p>
+                <p><strong>Requirement:</strong> Available adjacent event space</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: More Engagement Options -->
+        <div class="slide">
+            <h1>Additional Engagement Options</h1>
+            
+            <div class="engagement-item">
+                <h3>2. Recorded and Translated Interview</h3>
+                <p><strong>Format:</strong> Short podcast-style interview</p>
+                <p><strong>Usage:</strong> Loop display at 8M Mobility Show booth</p>
+                <p><strong>Distribution:</strong> Translated version, full interview on social media</p>
+                <p><strong>Advantage:</strong> Works with limited event space</p>
+            </div>
+            
+            <div class="engagement-item">
+                <h3>3. Recorded Video Message & Policy Paper</h3>
+                <p><strong>Content:</strong> Senior subject matter expert video message</p>
+                <p><strong>Deliverables:</strong> Video for booth display + related policy paper</p>
+                <p><strong>Distribution:</strong> Available for distribution or download</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: JICSS Additional Support -->
+        <div class="slide">
+            <h1>JICSS Support Beyond Mobility Show</h1>
+            <h2>Current Developments</h2>
+            
+            <div class="support-item">
+                <h3>Table-top Exercise for Senior Executives</h3>
+                <ul>
+                    <li><strong>Purpose:</strong> Test-run interactive cybersecurity simulation</li>
+                    <li><strong>Target:</strong> 8M leadership and staff</li>
+                    <li><strong>Content:</strong> Executive response to cyber attacks</li>
+                    <li><strong>Basis:</strong> Actual case studies</li>
+                    <li><strong>Experience:</strong> Deployed at University of Chicago</li>
+                    <li><strong>Future:</strong> Preview of additional training modules</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 6: Semiconductor Security -->
+        <div class="slide">
+            <h1>Semiconductor Security Initiative</h1>
+            
+            <div class="support-item">
+                <h3>Seminar on Semiconductor Security</h3>
+                <p><strong>Background:</strong> JICSS provided comments on Draft OT Security Guidelines for Semiconductor Device Factories to METI (Ministry of Economy, Trade and Industry)</p>
+                
+                <h3>Proposed Seminar Details:</h3>
+                <ul>
+                    <li><strong>Host:</strong> JICSS</li>
+                    <li><strong>Expert:</strong> Senior cybersecurity/national security subject matter expert</li>
+                    <li><strong>Target Audience:</strong> 
+                        <ul>
+                            <li>Semiconductor industry stakeholders</li>
+                            <li>Other interested stakeholders</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 7: Summary -->
+        <div class="slide">
+            <h1>Summary & Next Steps</h1>
+            
+            <h2>Key Opportunities</h2>
+            <div class="highlight-box">
+                <h3>Mobility Show Engagements</h3>
+                <ul>
+                    <li>Roundtable discussions on critical infrastructure</li>
+                    <li>Recorded interviews for booth content</li>
+                    <li>Policy papers and video messages</li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>Ongoing JICSS Support</h3>
+                <ul>
+                    <li>Executive cybersecurity training exercises</li>
+                    <li>Semiconductor security seminars</li>
+                    <li>Policy guidance and thought leadership</li>
+                </ul>
+            </div>
+            
+            <p style="text-align: center; font-size: 1.2em; margin-top: 30px; color: #667eea;">
+                <strong>Ready to showcase 8M's cybersecurity leadership</strong>
+            </p>
+        </div>
+
+        <div class="controls">
+            <button class="btn" onclick="changeSlide(-1)" id="prevBtn">Previous</button>
+            <button class="btn" onclick="changeSlide(1)" id="nextBtn">Next</button>
+            <div class="slide-counter">
+                <span id="slideNumber">1</span> of <span id="totalSlides">7</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        document.getElementById('totalSlides').textContent = totalSlides;
+        
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            
+            document.getElementById('slideNumber').textContent = currentSlide + 1;
+            
+            // Update button states
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+        
+        function changeSlide(n) {
+            if ((currentSlide === 0 && n === -1) || (currentSlide === totalSlides - 1 && n === 1)) {
+                return;
+            }
+            showSlide(currentSlide + n);
+        }
+        
+        // Initialize
+        showSlide(0);
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') changeSlide(1);
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+        });
+    </script>
+</body>
+</html>

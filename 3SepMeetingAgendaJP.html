@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会議アジェンダ - モビリティショー・JICSS支援</title>
+    <style>
+        body {
+            font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .slideshow-container {
+            max-width: 90%;
+            position: relative;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .slide {
+            display: none;
+            padding: 40px;
+            text-align: left;
+            min-height: 500px;
+            animation: fadeIn 0.5s;
+            line-height: 1.8;
+        }
+        
+        .slide.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .slide h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        
+        .slide h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        .slide h3 {
+            color: #5a6c7d;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .slide p, .slide li {
+            line-height: 1.8;
+            font-size: 1.05em;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+        
+        .slide ul {
+            padding-left: 25px;
+        }
+        
+        .slide li {
+            margin-bottom: 15px;
+        }
+        
+        .controls {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .btn:disabled {
+            background: #bbb;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .slide-counter {
+            color: #6c757d;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        
+        .date-badge {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-box {
+            background: #f8f9ff;
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .engagement-item {
+            background: #fff5f5;
+            border-left: 4px solid #e74c3c;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .support-item {
+            background: #f0fff4;
+            border-left: 4px solid #27ae60;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>会議アジェンダ</h1>
+            <div class="date-badge">2025年9月2日</div>
+            <div class="highlight-box">
+                <h2 style="border: none; margin: 0; text-align: center; color: #667eea;">モビリティショー参加・JICSS支援</h2>
+                <p style="text-align: center; font-size: 1.2em; margin-top: 20px; color: #5a6c7d;">
+                    サイバーセキュリティ、IoT、AIoT、国家安全保障開発の展示における戦略的機会
+                </p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Overview -->
+        <div class="slide">
+            <h1>会議概要</h1>
+            <h2>目的</h2>
+            <p>8Mチームは、以下の分野における開発とソートリーダーシップを披露する機会があります：</p>
+            <ul>
+                <li><strong>サイバーセキュリティ</strong> - 先進的なセキュリティソリューション</li>
+                <li><strong>IoT・AIoT</strong> - モノのインターネット技術革新</li>
+                <li><strong>国家安全保障</strong> - 重要インフラ保護</li>
+            </ul>
+            <div class="highlight-box">
+                <h3>JICSSの価値提案</h3>
+                <p>JICSSは、その専門家ネットワークを活用して、グローバルなソートリーダーとしての価値を実証し、重要な8Mのステークホルダーと聴衆に政策指導を提供することができます。</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Proposed Engagements -->
+        <div class="slide">
+            <h1>提案する取り組み</h1>
+            <h2>3つの戦略的アプローチ</h2>
+            
+            <div class="engagement-item">
+                <h3>1. ラウンドテーブル討論または司会付き対談</h3>
+                <p><strong>焦点：</strong>重要インフラ保護および/または新興脅威</p>
+                <p><strong>形式：</strong>独占的なラウンドテーブルまたはより広い「炉端対談」</p>
+                <p><strong>専門家：</strong>日本政府との経験を持つ元米国サイバーセキュリティ高官</p>
+                <p><strong>要件：</strong>隣接したイベントスペースが利用可能であること</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: More Engagement Options -->
+        <div class="slide">
+            <h1>追加の取り組みオプション</h1>
+            
+            <div class="engagement-item">
+                <h3>2. 録画・翻訳済みインタビュー</h3>
+                <p><strong>形式：</strong>短いポッドキャスト形式のインタビュー</p>
+                <p><strong>使用法：</strong>8Mモビリティショーブースでのループ再生</p>
+                <p><strong>配信：</strong>翻訳版、完全版はソーシャルメディア上で公開</p>
+                <p><strong>利点：</strong>限られたイベントスペースでも実施可能</p>
+            </div>
+            
+            <div class="engagement-item">
+                <h3>3. 録画ビデオメッセージ・政策文書</h3>
+                <p><strong>内容：</strong>シニア専門家によるビデオメッセージ</p>
+                <p><strong>成果物：</strong>ブース展示用ビデオ + 関連政策文書</p>
+                <p><strong>配布：</strong>配布またはダウンロード可能</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: JICSS Additional Support -->
+        <div class="slide">
+            <h1>モビリティショーを超えたJICSSサポート</h1>
+            <h2>現在の取り組み</h2>
+            
+            <div class="support-item">
+                <h3>上級役員向けテーブルトップ演習</h3>
+                <ul>
+                    <li><strong>目的：</strong>インタラクティブなサイバーセキュリティシミュレーションの試行</li>
+                    <li><strong>対象：</strong>8Mのリーダーシップとスタッフ</li>
+                    <li><strong>内容：</strong>サイバー攻撃への役員対応</li>
+                    <li><strong>基盤：</strong>実際のケーススタディ</li>
+                    <li><strong>実績：</strong>シカゴ大学で展開済み</li>
+                    <li><strong>今後：</strong>追加のトレーニングモジュールのプレビュー</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 6: Semiconductor Security -->
+        <div class="slide">
+            <h1>半導体セキュリティイニシアティブ</h1>
+            
+            <div class="support-item">
+                <h3>半導体セキュリティに関するセミナー</h3>
+                <p><strong>背景：</strong>JICSSは経済産業省（METI）の「半導体デバイス工場向けOTセキュリティガイドライン案」にコメントを提供しました</p>
+                
+                <h3>提案するセミナーの詳細：</h3>
+                <ul>
+                    <li><strong>主催：</strong>JICSS</li>
+                    <li><strong>専門家：</strong>サイバーセキュリティ/国家安全保障分野の上級専門家</li>
+                    <li><strong>対象聴衆：</strong> 
+                        <ul>
+                            <li>半導体業界のステークホルダー</li>
+                            <li>その他の関心のあるステークホルダー</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 7: Summary -->
+        <div class="slide">
+            <h1>まとめ・次のステップ</h1>
+            
+            <h2>主要な機会</h2>
+            <div class="highlight-box">
+                <h3>モビリティショーでの取り組み</h3>
+                <ul>
+                    <li>重要インフラに関するラウンドテーブル討論</li>
+                    <li>ブースコンテンツ用録画インタビュー</li>
+                    <li>政策文書とビデオメッセージ</li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>継続的なJICSSサポート</h3>
+                <ul>
+                    <li>役員向けサイバーセキュリティトレーニング演習</li>
+                    <li>半導体セキュリティセミナー</li>
+                    <li>政策指導とソートリーダーシップ</li>
+                </ul>
+            </div>
+            
+            <p style="text-align: center; font-size: 1.2em; margin-top: 30px; color: #667eea;">
+                <strong>8Mのサイバーセキュリティリーダーシップを披露する準備が整いました</strong>
+            </p>
+        </div>
+
+        <div class="controls">
+            <button class="btn" onclick="changeSlide(-1)" id="prevBtn">前へ</button>
+            <button class="btn" onclick="changeSlide(1)" id="nextBtn">次へ</button>
+            <div class="slide-counter">
+                <span id="slideNumber">1</span> / <span id="totalSlides">7</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        document.getElementById('totalSlides').textContent = totalSlides;
+        
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            
+            document.getElementById('slideNumber').textContent = currentSlide + 1;
+            
+            // Update button states
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+        
+        function changeSlide(n) {
+            if ((currentSlide === 0 && n === -1) || (currentSlide === totalSlides - 1 && n === 1)) {
+                return;
+            }
+            showSlide(currentSlide + n);
+        }
+        
+        // Initialize
+        showSlide(0);
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') changeSlide(1);
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+        });
+    </script>
+</body>
+</html>
